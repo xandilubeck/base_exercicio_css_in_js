@@ -149,7 +149,7 @@ export const VagaLink = styled.a`
   font-size: 14px;
   border-radius: 4px;
   text-align: center;
-  &:hover a {
+  &:hover {
     border-color: var(--cor-principal);
     background-color: var(--cor-secundaria);
     color: var(--cor-principal);
