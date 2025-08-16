@@ -1,4 +1,3 @@
-import styled from 'styled-components'
 import { createGlobalStyle } from 'styled-components'
 
 // -- GLOBAL STYLES -- //
@@ -35,6 +34,7 @@ body {
 `
 export default GlobalStyle
 
+/*
 // -- STYLES HEADER COMPONENT -- //
 
 export const Header = styled.header`
@@ -103,16 +103,14 @@ export const FormVag = styled.form`
   margin-top: 40px;
 `
 export const ButtonAsk = styled.button`
-  btnPesquisar {
-    background-color: var(--cor-principal);
-    border: var(--cor-principal);
-    height: 40px;
-    padding: 0 16px;
-    font-size: 18px;
-    color: var(--cor-secundaria);
-    margin-left: 8px;
-    cursor: pointer;
-  }
+  background-color: var(--cor-principal);
+  border: var(--cor-principal);
+  height: 40px;
+  padding: 0 16px;
+  font-size: 18px;
+  color: var(--cor-secundaria);
+  margin-left: 8px;
+  cursor: pointer;
 `
 export const InputPesquisa = styled.input`
   padding: 0 16px;
@@ -172,3 +170,4 @@ export const ListaVagasUl = styled.ul`
     grid-template-columns: 1fr;
   }
 `
+*/
