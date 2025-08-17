@@ -15,7 +15,7 @@ export const Form = styled.form`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--cor-prinicipal);
+    background-color: var(--cor-principal);
     content: '';
     opacity: 0.7;
     z-index: 0;
@@ -35,6 +35,7 @@ export const Mask = styled.div`
 export const HeroTitle = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
+  text-align: center;
 
   @media (max-width: 768px) {
     font-size: 32px;
