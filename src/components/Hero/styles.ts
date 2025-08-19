@@ -8,6 +8,14 @@ export const Form = styled.form`
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
+
+  h2 {
+    font-family: Gloock, serif;
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
+  }
 
   &::before {
     position: absolute;
@@ -21,23 +29,14 @@ export const Form = styled.form`
     z-index: 0;
   }
 `
-
 export const Mask = styled.div`
   position: relative;
   color: #eee;
   z-index: 1;
+  text-align: center;
 
   @media (max-width: 768px) {
     height: auto;
     padding: 24px 0;
-  }
-`
-export const HeroTitle = styled.h2`
-  font-family: Gloock, serif;
-  font-size: 48px;
-  text-align: center;
-
-  @media (max-width: 768px) {
-    font-size: 32px;
   }
 `
