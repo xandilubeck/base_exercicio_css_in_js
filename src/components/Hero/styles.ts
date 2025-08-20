@@ -30,6 +30,8 @@ export const Form = styled.form`
   }
 `
 export const Mask = styled.div`
+  margin: 0 auto;
+  width: 100%;
   position: relative;
   color: #eee;
   z-index: 1;
